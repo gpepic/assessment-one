@@ -10,28 +10,32 @@
   </head>
   <body>
     <div class="container">
-      <h1>Enter temperature for conversion:</h1>
+      <h1>Convert the Temperature:</h1>
 
       <form id="temp-translator">
         <div class="form-group">
-          <label for="c-to-f">Enter temperature in Fahrenheit</label>
-          <input id="fahr-temp" type="number">
+          <label for="c-to-f">Enter temperature in Fahrenheit  </label><br>
+          <input id="f-temp" type="number">
         </div>
 
-        <button type="submit" class="btn">TRANSLATE</button>
+        <button type="submit" class="btn">Convert to Celcius 
+        </button>
       </form>
+      <br>
 
        <div class="form-group">
-          <label for="f-to-c">Enter temperature in Celcius</label>
-          <input id="celc-temp" type="number">
+          <label for="f-to-c">Enter temperature in Celcius  </label><br>
+          <input id="c-temp" type="number">
         </div>
 
-        <button type="submit" class="btn">TRANSLATE</button>
+        <button type="submit" class="btn">Convert to Fahrenheit</button>
       </form>
 
       <div id="result">
         <br>
-        <p><span class="real-result"></span> </p>
+        <p><span class="to-celc-result"></span> </p>
+        <br>
+        <p><span class="to-fahr-result"></span> </p>
       </div> 
     </div>
   </body>
